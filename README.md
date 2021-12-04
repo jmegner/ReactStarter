@@ -9,10 +9,12 @@ Notable technologies/libs/whatever used...
 * [GitHub Actions](https://docs.github.com/en/actions)
 * [Visual Studio Code](https://code.visualstudio.com/)
 
-Starting-point/skeleton for a React app. Things created/modified...
+Things created/modified...
 * package.json set for TypeScript and React-Bootstrap
 * gitignore
 * tsconfig.json
+  * added 'sourceMap' entry to allow debugging TypeScript
+  * added 'outDir' entry so generated js files not in same folder as source ts files
 * test and deploy GitHub actions
 * VS Code launch.json; set up for debugging, testing, linting
 * test lib chosen (using test-library instead of React's test-utils)
@@ -32,3 +34,4 @@ Live at [jmegner.github.io/ReactStarter](https://jmegner.github.io/ReactStarter/
 * TODO: figure out where I saw how to debug tests in VS Code (by adding to .vscode/launch.json).
 * For testing, at first I started with React's react-dom and testing-util libraries (as suggested by [React's page on testing](https://reactjs.org/docs/testing-recipes.html)), but [Testing Library for React](https://testing-library.com/docs/react-testing-library/intro) seemed better, especially for interacting with the DOM.
 * I'm still using [Jest](https://jestjs.io/) as the test runner (it's set up when you do `create-react-app`), and despite what some internet articles said, I didn't have to do any work to get Jest to automatically run tests in *.test.tsx or *test.ts files.
+* Lots of small changes to tsconfig.json and .vscode/launch.json to better support building, debugging, testing, and linting.
