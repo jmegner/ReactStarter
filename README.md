@@ -9,7 +9,7 @@ Notable technologies/libs/whatever used...
 * [GitHub Actions](https://docs.github.com/en/actions)
 * [Visual Studio Code](https://code.visualstudio.com/)
 
-Things created/modified...
+Things created/modified after create-react-app...
 * package.json set for TypeScript and React-Bootstrap
 * gitignore
 * tsconfig.json
@@ -20,6 +20,11 @@ Things created/modified...
 * test lib chosen (using test-library instead of React's test-utils)
 
 Live at [jmegner.github.io/ReactStarter](https://jmegner.github.io/ReactStarter/).
+
+## Things To Tweak After Copying
+* change `README.md`
+* `package.json`: change "homepage" value.
+* `public/index.html`: change title
 
 ## Deploy To GitHub Pages Steps
 * Go to repo Code tab.  Using branch dropdown, create a 'gh-pages' branch.
